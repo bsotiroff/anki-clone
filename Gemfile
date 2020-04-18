@@ -6,7 +6,7 @@ ruby '2.5.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
 # Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg', '>= 1.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+gem 'materialize-sass', '~> 1.0.0'
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
